@@ -24,7 +24,7 @@ const brand = ref('🏨 Fake Company Directory')
 
 <style scoped lang="postcss">
 nav {
-    @apply flex bg-purple-600 text-white h-20 ;
+    @apply flex bg-purple-600 text-orange-400 h-20 ;
     .wrapper {
         @apply flex  items-center justify-between container mx-auto w-full;
         .brand {
@@ -39,7 +39,7 @@ nav {
                 @apply hover:bg-green-500 hover:text-black px-1 py-1 rounded-md; 
             }
             &-login {
-                @apply hover:bg-red-500 bg-green-500 hover:text-black px-1 py-1 rounded-md text-black;
+                @apply hover:bg-red-500 bg-green-500 hover:text-orange-400 px-1 py-1 rounded-md text-black;
             }
         }
     }
