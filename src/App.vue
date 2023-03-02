@@ -1,8 +1,10 @@
 <script setup>
-  import NavMenu from '@/components/NavMenu.vue'
+import { ref } from 'vue'
+import NavBar from './components/NavBar.vue';
+
 </script>
 
 <template>
-  <NavMenu />
-  <RouterView />
+  <NavBar />
+  <h1>Main Content</h1>
 </template>
