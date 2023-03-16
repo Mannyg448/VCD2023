@@ -8,9 +8,9 @@ const brand = ref('🏨 Fake Company Directory')
 <template>
    <nav class="bg-red-400">
    <div class="wrapper">
-   <div class="brand">
+   <RouterLink :to="{ name: 'Home' }" class="brand">
     <span class="brand-title">{{  brand }}</span>
-    </div>
+   </RouterLink>
     <div class="menu">
         <a href="#" class="menu-item">Department</a>
         <a href="#" class="menu-item">Settings</a>
